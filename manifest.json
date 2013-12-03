@@ -3,8 +3,13 @@
 
   "name": "__MSG_extNAME__", 
   "description": "__MSG_desp__", 
-  "version": "0.1",
+  "version": "1.0",
 
+  "app": {
+  "launch": {
+  "local_path": popup.html
+  }
+  },
   "permissions": [
 	"downloads",
 	"<all_urls>"
