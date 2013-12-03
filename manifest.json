@@ -4,12 +4,9 @@
   "name": "__MSG_extNAME__", 
   "description": "__MSG_desp__", 
   "version": "1.0",
+  "short_name":"A chrome extension enabls you convert a magnet link to bt torrent",
+  "homepage_url":"https://github.com/LanderlYoung/Magnet2Torrent",
 
-  "app": {
-  "launch": {
-  "local_path": popup.html
-  }
-  },
   "permissions": [
 	"downloads",
 	"<all_urls>"
