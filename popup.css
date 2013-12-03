@@ -1,0 +1,256 @@
+body {
+    font-family: 'Helvetica', 'Segoe UI', "Microsoft YaHei", "WenQuanYi Micro Hei";
+    text-shadow: 0px 0px 1.5px #ccc;
+    background-color: white;
+    background-image: radial-gradient(hsla(0,0%,87%,0.51) 9px, transparent 10px),
+         repeating-radial-gradient(hsla(0,0%,87%,0.51) 0,
+     hsla(0,0%,87%,0.51) 4px,
+    transparent 5px, transparent 20px,
+     hsla(0,0%,87%,0.51) 21px,
+     hsla(0,0%,87%,0.51) 25px,
+     transparent 26px, transparent 50px);
+    background-size: 30px 30px, 90px 90px;
+    background-position: 0 0;
+}
+
+#header {
+    text-align: center;
+    font-size: medium;
+    font-weight: normal;
+    text-shadow: .5px .5px 2px gray;
+    border: 2px solid #2b92d4;
+    border-radius: 15px;
+   
+}
+
+#warning {
+    display: none;
+    text-align: center;
+    font-size:medium;
+    font-weight: normal;
+    text-shadow: .5px .5px 2px gray;
+    color: red;
+    border: 2px solid rgb(128, 0, 255);
+    border-radius: 15px;
+}
+
+hr {
+    border: none;
+    height: 0;
+}
+
+.workSpace {
+}
+
+.inputArea {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .inputArea p {
+        font-size: medium;
+    }
+
+    .inputArea input {
+        font-size: medium;
+        height: 100%;
+        padding: 1px;
+        border: 1px solid #2b92d4;
+    }
+    .inputArea input:focus {
+        border: 1px solid rgb(255, 106, 0);
+    }
+
+    .inputArea select {
+        font-size: medium;
+        font-weight: 700;
+        width: auto;
+        height: 100%;
+        border: 1px solid #2b92d4;
+    }
+    .inputArea select:focus {
+        border: 1px solid rgb(255, 106, 0);
+
+    }
+
+.buttons {
+    text-align: center;
+    margin-top: 8px;
+}
+
+    .buttons button {
+        font-size: medium;
+        padding-bottom: 4px;
+        min-width:80px;
+        cursor: pointer;
+        box-shadow: inset;
+        padding: 2px 6px;
+        border: 1px solid #2b92d4;
+    }
+    .buttons button:focus {
+        border:1px solid rgb(255, 106, 0);
+    }
+
+#targetLink {
+    font-size: large;
+    font-size: medium;
+    color: rgb(255, 106, 0);
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+
+    #targetLink :hover {
+        font-size: large;
+        font-size: medium;
+        color: rgb(255, 106, 0);
+        text-align: center;
+        text-decoration: underline;
+    }
+
+#tableDiv {
+    text-align: center;
+    display: none;
+    margin-bottom:15px;
+}
+
+
+#breath-button {
+    position: relative;
+    width: 160px;
+    height: 6px;
+    border: 1px solid #2b92d4;
+    margin: -2px auto;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6cc3fe), to(#21a1d0));
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: breathe;
+    -webkit-animation-duration: 3000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes breathe {
+    100% {
+        opacity: .1;
+        box-shadow: 0 1px 2px rgba(255,255,255,0.1);
+    }
+
+    0% {
+        opacity: 1;
+        border: 1px solid rgba(59,235,235,1);
+        box-shadow: 0 1px 30px rgba(59,255,255,1);
+    }
+}
+
+#linksTable {
+    margin: auto auto auto auto;
+    text-align: center;
+    border-color: gray;
+    display: none;
+}
+
+    #linksTable td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #linksTable .no {
+        font-size: medium;
+        text-align: center;
+        width: auto;
+    }
+
+    #linksTable tr div {
+        position: relative;
+    }
+
+        #linksTable tr div div {
+            display: none;
+        }
+
+    #linksTable tr:hover {
+        background-color: #eaeaea;
+    }
+
+        #linksTable tr:hover div div {
+            display: block;
+            font-size: small;
+            overflow: visible;
+            border-radius: 5px;
+            white-space: normal;
+            word-wrap: break-word;
+            word-break: normal;
+            text-align: center;
+            position: absolute;
+            width: 120px;
+            text-shadow: none;
+            bottom: 20px;
+            left: 0px;
+            background-color: #303030;
+            opacity: .9;
+            color: white;
+            padding: 4px;
+            z-index: 10;
+        }
+
+    #linksTable .name {
+        text-align: center;
+        font-size: small;
+        word-break: keep-all;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow-x: hidden;
+        position: relative;
+        max-width: 100px;
+        padding-left: 4px;
+        padding-right: 4px;
+        z-index: 0;
+    }
+
+    #linksTable .open {
+        font-size: medium;
+        text-align: center;
+        width: auto;
+    }
+
+        #linksTable .open a {
+            text-align: center;
+            color: rgb(255, 106, 0);
+            text-decoration: none;
+        }
+
+#aboutText {
+    text-align: center;
+    text-shadow:1px 1px 2px gray;
+    height: 0px;
+    display: none;
+    overflow: hidden;
+}
+
+#aboutTag {
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(72, 0, 255);
+}
+
+    #aboutTag a {
+        text-decoration: none;
+        padding: 1px 80px;
+        border: 2px solid #6cc3fe;
+        border-radius:15px;
+    }
+    #aboutTag a:hover {
+        border-color: #00ffff;
+    }
+    #aboutTag a:active {
+        color:rgb(255, 106, 0);
+    }
+

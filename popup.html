@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Convert Magnet to BT Torrent</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <script src="popup.js"></script>
+</head>
+<body>
+    <p id="header">Magnet to BT Torrent</p>
+    <p id="warning"></p>
+    <hr />
+    <div class="workSpace">
+        <div class="inputArea">
+            <label>Server:</label>
+            <select id="selectServer">
+                <option value="1">Thunder</option>
+                <option value="2">TorCache</option>
+                <option value="3">Zoink</option>
+            </select>
+        </div>
+        <div class="inputArea">
+            <input type="text" id="magnet" />
+        </div>
+        <div class="buttons">
+            <button id="convertButton">convert</button>
+            <button id="clearButton">clear</button>
+        </div>
+        <div class="links">
+            <a id="targetLink">Click here to download <br/>your torrent.</a>
+        </div>
+    </div>
+    <hr />
+    <div id="tableDiv">
+        <!-- [change to breath light]>
+        <p style="color:rgb(0, 148, 255);text-align:center">Magnets in the page.</p>
+        <img src="breath-bar.png" style="width:100%"/>
+        <![ end comment]-->
+        <div id="breath-button"></div>
+        <table id="linksTable">
+            <thead>
+                <tr>
+                    <td class="no">No.</td>
+                    <td class="name" style="font-size:medium">Name</td>
+                    <td class="open">Save</td>
+                </tr>
+            </thead>
+        </table>
+        <hr />
+    </div>
+ 
+    <div>
+        <p id="aboutText">
+            This is a chrome extension enables you to convert a megnet link to bt torrent.<br/>
+            Author:
+            <span style="color:#0094ff;text-decoration:none">Young.whu</span><br />
+            E-main:<br/>
+            <a href="mailto:landerlyoung@gmail.com" target="_blank" style="color:#0094ff;text-decoration:none">
+                landerlyoung@gmail.com
+            </a>
+            <br />
+        </p>
+       <div id="aboutTag">
+            <a href="#">About</a>
+            <hr />
+        </div>
+    </div>
+</body>
+</html>
