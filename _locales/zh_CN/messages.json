@@ -1,0 +1,9 @@
+﻿{
+	"extName": {
+		"message": "Magnet2Torrent", 
+		"description": "Extension Name"
+	}, 
+	"desp": {
+		"message": "一个Chrome插件，可以把磁力链转成种子。"
+	}
+}

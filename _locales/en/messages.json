@@ -1,0 +1,9 @@
+﻿{
+	"extName": {
+		"message": "Magnet2Torrent", 
+		"description": "Extension Name"
+	}, 
+	"desp": {
+		"message": "A chrome extension converts Magnet to BT Torrent."
+	}
+}

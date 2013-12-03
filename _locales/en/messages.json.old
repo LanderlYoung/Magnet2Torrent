@@ -1,0 +1,91 @@
+﻿{
+	"extName": {
+		"message": "Magnet2Torrent", 
+		"description": "Extension Name"
+	}, 
+	"desp": {
+		"message": "A chrome extension converts Magnet to BT Torrent."
+	}, 
+
+	"htmlTitle": {
+		"message" : "Magnet to BT Torrent", 
+		"description" : "html title"
+	}, 
+
+	"title": {
+		"message" : "Magnet to BT Torrent", 
+		"description" : "extionsion title"
+	}, 
+
+	"server": {
+		"message" : "Server:", 
+		"description" : ""
+	}, 
+
+	"thunder": {
+		"message" : "Thunder", 
+		"description" : ""
+	}, 
+
+	"TorCache": {
+		"message": "TorCache" , 
+		"description" : ""
+	}, 
+
+	"Zoink": {
+		"message" : "Zoink", 
+		"description" : ""
+	}, 
+
+	"convert": {
+		"message" :"convert" , 
+		"description" : ""
+	}, 
+
+	"clear": {
+		"message" : "clear" , 
+		"description" : ""
+	}, 
+
+	"downloadPrompt": {
+		"message" : "Click here to download your torrent." , 
+		"description" : ""
+	}, 
+
+	"no": {
+		"message" : "No.", 
+		"description" : ""
+	}, 
+
+	"name": {
+		"message" : "name", 
+		"description" : ""
+	}, 
+
+	"save": {
+		"message" : "save", 
+		"description" : ""
+	}, 
+
+	"aboutText": {
+		"message" : "This is a chrome extesion converts a megnet link to bt torrent.", 
+		"description" : ""
+	}, 
+
+
+	"author": {
+		"message" : "Author:", 
+		"description" : ""
+	}, 
+
+
+	"E-mail": {
+		"message" : "E-mail" , 
+		"description" : ""
+	}, 
+
+	"about" : {
+		"message": "About", 
+		"description":""
+	}
+}
