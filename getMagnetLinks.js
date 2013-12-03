@@ -28,8 +28,6 @@
                     break;
                 case 2:
                     //btdigg
-                    
-
                     break;
                 default:
 
@@ -39,8 +37,9 @@
             console.log(e);
             return null;
         }
-
+        return null;
     }
+
     function getLinksCommon() {
         records.splice(0);
         var links = document.getElementsByTagName("a");
